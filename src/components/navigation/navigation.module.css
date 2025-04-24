@@ -79,7 +79,7 @@
     position: absolute;
     left: -80vw;
     width: 80vw;
-    height: 1005;
+    height: 100dvh;
     background-color: var(--foreground);
     top: 0;
     transition: left 0.3s ease;

@@ -2,7 +2,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 15rem 1rem 17rem 1rem;
+  padding: 15rem 1rem 18rem 1rem;
   background-color: var(--foreground);
   color: var(--background);
 }
@@ -80,6 +80,9 @@
 }
 
 @media screen and (min-width: 768px) and (max-width: 1024px) {
+  .section {
+    padding: 12rem 1rem 15rem 1rem;
+  }
   .content h1 {
     font-size: 35px;
   }
