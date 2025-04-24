@@ -3,8 +3,10 @@
 import { useState } from "react";
 import Link from "next/link";
 import Styles from "./navigation.module.css";
+import { usePathname } from "next/navigation";
 
 export default function MobileNav({ navLinks }) {
+  const pathname = usePathname();
   const [menuActive, setMenuActive] = useState(false);
 
   const toggleMenu = () => setMenuActive(!menuActive);
@@ -15,7 +17,11 @@ export default function MobileNav({ navLinks }) {
       <ul className={`${Styles.navLinks} ${menuActive ? Styles.active : ""}`}>
         {navLinks.map(({ href, name }) => (
           <li key={href}>
-            <Link href={href} onClick={closeMenu}>
+            <Link
+              href={href}
+              onClick={closeMenu}
+              className={pathname === href ? Styles.activeLink : ""}
+            >
               {name}
             </Link>
           </li>

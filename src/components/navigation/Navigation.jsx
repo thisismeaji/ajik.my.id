@@ -5,22 +5,10 @@ import Image from "next/image";
 import MobileNav from "./MobileNav";
 
 const navLinks = [
-  {
-    name: "Home",
-    href: "/",
-  },
-  {
-    name: "About",
-    href: "/about",
-  },
-  {
-    name: "Projects",
-    href: "/projects",
-  },
-  {
-    name: "Contact",
-    href: "/contact",
-  },
+  { name: "Home", href: "#home" },
+  { name: "About", href: "#about" },
+  { name: "Projects", href: "#projects" },
+  { name: "Contact", href: "#contact" },
 ];
 
 export default function Navigation() {

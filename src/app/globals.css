@@ -6,6 +6,10 @@
   --border: #4f4f4f;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -22,10 +26,6 @@ header {
   padding: 1.5rem 1rem;
   background-color: var(--foreground);
   color: var(--background);
-}
-
-body {
-  height: 500vh;
 }
 
 a {

@@ -70,6 +70,10 @@
   left: 0;
 }
 
+.activeLink {
+  color: var(--accent);
+}
+
 @media screen and (max-width: 768px) {
   .menu {
     display: flex;
