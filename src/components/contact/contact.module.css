@@ -1,0 +1,95 @@
+.section {
+  padding: 10rem 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--secondary);
+  color: var(--foreground);
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 1200px;
+  position: relative;
+  z-index: 10;
+}
+
+.content p {
+  margin-top: 1rem;
+  text-align: center;
+}
+
+.contactForm {
+  width: 100%;
+  max-width: 900px;
+  margin-top: 3rem;
+  font-family: "Poppins";
+}
+
+.contactForm form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.contactForm input,
+.contactForm textarea {
+  border: none;
+  padding: 1rem 0;
+  border-bottom: 1px solid black;
+  cursor: pointer;
+  font-family: "Poppins";
+  margin-bottom: 2rem;
+  background-color: transparent;
+}
+
+.contactForm input:focus,
+.contactForm textarea:focus {
+  outline: none;
+}
+
+.content button {
+  background-color: var(--foreground);
+  color: var(--background);
+  font-size: 14px;
+  font-family: "Poppins";
+  font-weight: 500;
+  border: none;
+  padding: 8px 24px;
+  border-radius: 20px;
+  margin-top: 1rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  width: fit-content;
+}
+
+.content button:hover {
+  background-color: var(--accent);
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .section {
+    padding: 12rem 1rem 15rem 1rem;
+  }
+
+  .content button {
+    font-size: 13px;
+    padding: 7px 21px;
+    margin-top: 0.7rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .section {
+    padding: 8rem 1rem 10rem 1rem;
+  }
+
+  .content button {
+    font-size: 12px;
+    padding: 5px 15px;
+    margin-top: 0.5rem;
+  }
+}
