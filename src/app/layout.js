@@ -21,6 +21,9 @@ export default function RootLayout({ children }) {
           <Navigation />
         </header>
         <main id="home">{children}</main>
+        <footer>
+          <p>© 2025 Ajisaka Kamandanu. All Rights Reserved.</p>
+        </footer>
       </body>
     </html>
   );
