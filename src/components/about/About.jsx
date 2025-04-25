@@ -26,22 +26,38 @@ export default function About() {
           </p>
           <ul className={Styles.socialMedia}>
             <li>
-              <Link href="/">
+              <Link
+                href="https://www.linkedin.com/in/ajisaka-kamandanu-0870a6349/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 <Linkedin strokeWidth={1.5} />
               </Link>
             </li>
             <li>
-              <Link href="/">
+              <Link
+                href="https://www.instagram.com/thisisme_aji/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 <Instagram strokeWidth={1.5} />
               </Link>
             </li>
             <li>
-              <Link href="/">
+              <Link
+                href="https://www.threads.com/@thisisme_aji"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 <AtSign strokeWidth={1.5} />
               </Link>
             </li>
             <li>
-              <Link href="/">
+              <Link
+                href="https://www.facebook.com/profile.php?id=100090748616081"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 <Facebook strokeWidth={1.5} />
               </Link>
             </li>
