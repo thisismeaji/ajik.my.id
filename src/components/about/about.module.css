@@ -57,10 +57,6 @@
   animation: blink 3s infinite;
 }
 
-.content h2 {
-  font-size: 30px;
-}
-
 .content p {
   color: var(--border);
 }
@@ -101,7 +97,6 @@
 @media screen and (max-width: 1024px) {
   .section {
     padding: 7rem 1rem;
-    border: 1px solid black;
   }
   .content {
     flex-direction: column;

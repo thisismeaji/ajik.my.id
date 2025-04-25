@@ -38,7 +38,32 @@ li {
   font-size: 16px;
 }
 
+h2 {
+  font-size: 30px;
+}
+
+h3 {
+  font-size: 20px;
+}
+
+@media screen and (max-width: 1024px) {
+  h2 {
+    font-size: 25px;
+  }
+
+  h3 {
+    font-size: 18px;
+  }
+}
+
 @media screen and (max-width: 768px) {
+  h2 {
+    font-size: 20px;
+  }
+
+  h3 {
+    font-size: 16px;
+  }
   p,
   li {
     font-size: 14px;
