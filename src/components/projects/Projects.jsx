@@ -17,24 +17,19 @@ export default function Projects() {
           </p>
         </div>
         <div className={Styles.cardContainer}>
-          <Link
-            href="https://vurply.com/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <div className={Styles.card}>
-              <Image
-                src="/images/projects1.png"
-                alt="Projects 1"
-                width={1920}
-                height={1080}
-              />
-              <div>
-                <h3>Landing Page</h3>
-                <p>Wordpress + Elementor</p>
-              </div>
+          <div className={Styles.card}>
+            <Image
+              src="/images/projects1.png"
+              alt="Projects 1"
+              width={1920}
+              height={1080}
+            />
+            <div>
+              <span className={Styles.badge}>Comming Soon</span>
+              <h3>Landing Page</h3>
+              <p>Figma + Wordpress + Elementor</p>
             </div>
-          </Link>
+          </div>
         </div>
       </div>
     </section>
