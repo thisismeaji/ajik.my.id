@@ -17,6 +17,25 @@ export default function Projects() {
           </p>
         </div>
         <div className={Styles.cardContainer}>
+          <Link
+            href="https://blog-chi-rosy-58.vercel.app/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <div className={Styles.card}>
+              <Image
+                src="/images/projects3.png"
+                alt="Projects 1"
+                width={1920}
+                height={1080}
+              />
+              <div>
+                <span className={Styles.badge}>On Progress</span>
+                <h3>Blog</h3>
+                <p>Next JS + Markdown</p>
+              </div>
+            </div>
+          </Link>
           <div className={Styles.card}>
             <Image
               src="/images/projects1.png"
@@ -30,6 +49,25 @@ export default function Projects() {
               <p>Figma + Wordpress + Elementor</p>
             </div>
           </div>
+          <Link
+            href="https://www.glorylaundrypwr.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <div className={Styles.card}>
+              <Image
+                src="/images/projects2.png"
+                alt="Projects 1"
+                width={1920}
+                height={1080}
+              />
+              <div>
+                <span className={Styles.badge}>Done</span>
+                <h3>Company Profile</h3>
+                <p>HTML + CSS + Javascript</p>
+              </div>
+            </div>
+          </Link>
         </div>
       </div>
     </section>
