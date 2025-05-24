@@ -18,14 +18,33 @@ export default function Projects() {
         </div>
         <div className={Styles.cardContainer}>
           <Link
+            href="https://vurply.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <div className={Styles.card}>
+              <Image
+                src="/images/vurply.com.png"
+                alt="vurply.com"
+                width={1920}
+                height={1080}
+              />
+              <div>
+                <span className={Styles.badge}>On Progress</span>
+                <h3>Vurply</h3>
+                <p>Wordpress + Generate Press + Generate Block + Custom CSS</p>
+              </div>
+            </div>
+          </Link>
+          <Link
             href="https://blog-chi-rosy-58.vercel.app/"
             target="_blank"
             rel="noopener noreferrer"
           >
             <div className={Styles.card}>
               <Image
-                src="/images/projects3.png"
-                alt="Projects 1"
+                src="/images/blog-nextjs.png"
+                alt="blog-nextjs"
                 width={1920}
                 height={1080}
               />
@@ -43,8 +62,8 @@ export default function Projects() {
           >
             <div className={Styles.card}>
               <Image
-                src="/images/projects2.png"
-                alt="Projects 1"
+                src="/images/glorylaundry.png"
+                alt="glorylaundry"
                 width={1920}
                 height={1080}
               />
