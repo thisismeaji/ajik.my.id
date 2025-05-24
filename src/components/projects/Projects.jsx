@@ -36,19 +36,6 @@ export default function Projects() {
               </div>
             </div>
           </Link>
-          <div className={Styles.card}>
-            <Image
-              src="/images/projects1.png"
-              alt="Projects 1"
-              width={1920}
-              height={1080}
-            />
-            <div>
-              <span className={Styles.badge}>Comming Soon</span>
-              <h3>Landing Page</h3>
-              <p>Figma + Wordpress + Elementor</p>
-            </div>
-          </div>
           <Link
             href="https://www.glorylaundrypwr.com/"
             target="_blank"
